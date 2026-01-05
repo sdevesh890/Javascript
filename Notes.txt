@@ -1,0 +1,99 @@
+-------------   Javascript -------------
+
+> JS is a programming language. 
+> Earlier name - Mocha -> Livescript -> Javascript
+> JS does not run by itself. it needs js engine - Executes the JS code. 
+    > V8 (chrome)
+    > SpiderMonkey (Firefox)
+    > JavascriptCore (Safari)
+
+
+Ecmascript - ECMAscript is a standard/specification that defines : 
+    > How a scripting language should work
+    > Syntax rules
+    > Data type 
+    > Core features 
+    > JS Implements the ECMAScript standard
+
+How JS work ?
+> JS uses hybrid approach involving both an interpreter and compiler. 
+
+Keyword : JS reserved some keywords for its own purpose. you can not use them for your purpose in program. ex - if , else , let, var, const etc...
+
+Variable : work as a bucket - where we can store the value in program.
+
+How to print in JS ? -> console.log();
+
+what is console.log () ?
+    > console is an object where it is not part of JS itself. it is a "WEB API" provided by the browser or node.js.
+    > log is a method. it is designed to take whatever you put in the parentheses and send it to the output stream.
+
+
+DATA TYPES : 
+
+> JS is dynamic language with dynamic types. 
+> Variables in JS are not directly associated with any particular value type. 
+
+
+Two type of Data type : Primitive and Non-Primitive
+    > Primitive means consist automic value 
+    > non-Primitive means consist compostion of Primitive values;
+
+Primitive values : number , string , boolean , null , undefined
+Non - Primitive : object
+
+    > typeof null is object.
+    > null - means empty values;
+    > undefined - that value which is not defined yet but maybe defined later. 
+
+
+OPERATORS : 
+>  There are different type of operators
+
+Arithmatic : +,-,*,/,% , **
+Assignment : = , += , -= , /= , *= , %=
+Relational/Comparison = < , > , <= , >=
+Logical : && , || , !
+Bitwise : & - AND , | - OR , ^ - XOR , ~ - NOT
+
+
+What values are falsy ? 
+    > Null , defined , empty string (" ")
+    > +0 , -0 , NaN 
+    > false    
+
+
+What is NaN(Not a number) > If there is any situation where you are bound to return a number , but there is no valid possible number to return.
+
+
+CONDITIONALS: 
+> Used to perform different actions based on different conditions.
+
+Types of Conditionals:
+1. if Statement: Executes a block of code if a specified condition is true.
+2. else Statement: Executes a block of code if the same condition is false.
+3. else if Statement: Specifies a new condition to test, if the first condition is false.
+4. switch Statement: Selects one of many blocks of code to be executed.
+
+Ternary Operator: 
+> A shortcut for the if-else statement.
+> Syntax: condition ? exprIfTrue : exprIfFalse
+
+
+LOOPS:
+> Used to execute a block of code a number of times.
+
+Types of Loops:
+1. for Loop: Loops through a block of code a number of times.
+2. while Loop: Loops through a block of code while a specified condition is true.
+3. do-while Loop: Also loops through a block of code while a specified condition is true, but always executes the block at least once.
+4. for...in Loop: Loops through the properties of an object.
+5. for...of Loop: Loops through the values of an iterable object.
+
+Control Statements:
+> break statement: Jumps out of a loop.
+> continue statement: Jumps over one iteration in the loop.
+
+
+
+
