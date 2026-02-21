@@ -29,6 +29,24 @@ what is console.log () ?
     > log is a method. it is designed to take whatever you put in the parentheses and send it to the output stream.
 
 
+Difference between var , let and const :
+
+Var : 
+    > if you declare any variable with var outside the function - available to use for the whole window. 
+    > var is function scoped when its declared within function 
+    > can redeclare and updated 
+
+let : 
+    > let is block scoped bounded by {};
+    > can not be redeclared but can be updated.
+
+const :
+    > also a block scoped.
+    > but can not be redeclared and updated
+
+> They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
+> While var and let can be declared without being initialized, const must be initialized during declaration.
+
 DATA TYPES : 
 
 > JS is dynamic language with dynamic types. 
@@ -94,6 +112,30 @@ Control Statements:
 > break statement: Jumps out of a loop.
 > continue statement: Jumps over one iteration in the loop.
 
+FUNCTIONS : 
+
+> It is a block of js code which can be use for specific task. 
+> can be use many times.
+> avoid repetition of code. 
+
+> we can create our own functions - user defined functions
+> created by js - inbuilt functions i.e -> Math.sqrt
+
+>> nullish coalescing operator ??, we can use this operator when we don't want null or undefined value should pass in parameter.
 
 
+function expression - another syntax for creating function.
+
+Difference between functions expression and declaration ? 
+    > fn expression cannot be access before initialization.
+    > but fn declaration can be. 
+
+
+Arrow function : another different syntax for creating function. a shorter form of function expression.
+
+Rest parameter : 
+ > The rest of the parameters can be included in the function definition by using three dots ... followed by the name of the array that will contain them. The dots literally mean “gather the remaining parameters into an array”.
+ > The rest parameters gather all remaining arguments, so the following does not make sense and causes an error:
+
+callback - when function passed as arguement in another function.
 
